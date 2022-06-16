@@ -11,7 +11,7 @@ Product Invoice Reports
 
 These are reports for products in invoices between a range of dates. Helps you to know how much your invoices are worth, and the products in those invoices.
 
-Another Reports
+Another Report
 --------------------------------------
 
 These are reports for products in invoices between a range of dates. Helps you to know how much your invoices are worth, and the products in those invoices.
