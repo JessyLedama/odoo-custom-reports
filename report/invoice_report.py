@@ -25,7 +25,7 @@ from dateutil.parser import parse
 from odoo.exceptions import UserError
 
 class ReportInvoices(models.AbstractModel):
-    _name = 'report.product_invoice_report.product_invoice'
+    _name = 'report.odoo_custom_reports.product_invoice'
     _description = 'Product Invoice Report'
 
     '''Find Outstanding invoices between the date and find total outstanding amount'''

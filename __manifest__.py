@@ -20,10 +20,10 @@
 #################################################################################
 
 {
-    'name': "Product Invoice Report",
+    'name': "Odoo Custom Reports",
     'author': 'SIMI Technologies',
-    'category': 'account_invoicing',
-    'summary': """Report for customer's outstanding invoice amount within the particular date period""",
+    'category': 'reports',
+    'summary': """ Cutom PDF and Excel Reports """,
     'website': 'http://www.simitechnologies.co.ke',
     'license': 'AGPL-3',
     'description': """

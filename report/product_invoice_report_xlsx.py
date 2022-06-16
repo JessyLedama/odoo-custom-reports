@@ -7,7 +7,7 @@ from dateutil.parser import parse
 from odoo.exceptions import UserError
 
 class ProductInvoiceXlsx(models.AbstractModel):
-    _name = "report.product_invoice_report.product_invoice_xlsx"
+    _name = "report.odoo_custom_reports.product_invoice_xlsx"
     _inherit = 'report.report_xlsx.abstract'
     _description = "Product Invoice Xlsx Report"
 
@@ -58,6 +58,5 @@ class ProductInvoiceXlsx(models.AbstractModel):
             sheet.write(row, col - 1, obj['price_unit'])
             sheet.write(row, col, obj['price_total'])
             # if(obj['journal_id'][0] == 2):
-            print("INVOICE LINES:", obj['journal_id'][1])
 
         
