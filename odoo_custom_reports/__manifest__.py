@@ -29,7 +29,7 @@
     'description': """
 """,
     'version': '15.0.1.0',
-    'price': 59.99,
+    # 'price': 59.99,
     'currency': 'EUR',
     'depends': ['base','account', 'report_xlsx'],
     'data': ['security/ir.model.access.csv',
