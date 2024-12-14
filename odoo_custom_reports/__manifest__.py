@@ -28,7 +28,7 @@
     'license': 'AGPL-3',
     'description': """
 """,
-    'version': '16.0.1.0',
+    'version': '17.0.1.0',
     'price': 59.99,
     'currency': 'EUR',
     'depends': ['base','account', 'report_xlsx'],
